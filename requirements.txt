@@ -1,1 +1,8 @@
-
+requests 
+tabulate 
+dnspython 
+python-whois 
+pyyaml 
+beautifulsoup4 
+aiohttp 
+shodan
