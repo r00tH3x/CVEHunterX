@@ -55,7 +55,7 @@ class Database:
                 score REAL,
                 published TEXT,
                 description TEXT,
-                "references" TEXT,
+                refs TEXT,
                 exploits TEXT,
                 tags TEXT,
                 cached_at TEXT
