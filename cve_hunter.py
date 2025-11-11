@@ -341,7 +341,7 @@ class CVEHunterX:
         
         try:
             url = f"https://{domain}"
-            response = self.session.get(url, timeout=10, allow_redirects=True)
+            response = self.session.get(url, timeout=10, allow_redirects=True, verify=False)
             
             technologies = {}
             headers = response.headers
