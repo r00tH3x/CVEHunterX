@@ -82,7 +82,7 @@ class Database:
         
         cursor.execute('''
             INSERT OR REPLACE INTO cves 
-            (id, score, published, description, references, exploits, tags, cached_at)
+            (id, score, published, description, refs, exploits, tags, cached_at)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             cve_data['id'],
